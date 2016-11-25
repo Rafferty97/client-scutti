@@ -11,9 +11,9 @@ build({
   entry: path.join(__dirname, entry),
   router: path.join(__dirname, 'src/router.js'),
   datasource: path.join(__dirname, 'src/datasource.js'),
-  buildDir: path.join(__dirname, 'build'),
+  buildDir: path.join(__dirname, argv.static ? 'build' : 'tmp'),
   node_modules: path.join(__dirname, 'node_modules'),
-  publicPath: '/', // '/client-scutti/',
+  publicPath: argv.static ? '/test/' : '/',
   clientExterns: ['whatwg-fetch']
 })
   .then(function(stats) {
