@@ -13,7 +13,7 @@ build({
   datasource: path.join(__dirname, 'src/datasource.js'),
   buildDir: path.join(__dirname, 'build'),
   node_modules: path.join(__dirname, 'node_modules'),
-  publicPath: '/test/', // '/client-scutti/',
+  publicPath: '/', // '/client-scutti/',
   clientExterns: ['whatwg-fetch']
 })
   .then(function(stats) {

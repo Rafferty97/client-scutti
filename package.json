@@ -12,7 +12,7 @@
   "author": "Alexander Rafferty <alex@flashbang.io>",
   "license": "ISC",
   "dependencies": {
-    "cmmn": "file:///Users/Alexander/GitHub/projects/cmmn2/cmmn-1.0.0.tgz",
+    "cmmn": "^1.0.0",
     "concurrently": "^3.1.0",
     "express": "^4.14.0",
     "http-server": "^0.9.0",
