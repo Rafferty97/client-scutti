@@ -1,0 +1,29 @@
+$medium-bp: 1100px;
+$sm-medium-bp: 1000px;
+$small-bp: 850px;
+$smaller-bp: 600px;
+$mobile-bp: 450px;
+
+$min-page-height: 90rem;
+
+@mixin font-serif {
+  font-family: Georgia, serif;
+}
+
+@mixin font-cursive {
+  font-family: 'Eye Catching Pro';
+}
+
+@mixin grey-link {
+  color: #b0b0b0;
+  &:hover, &:active {
+    color: #e8e8e8;
+  }
+}
+
+@mixin hover-zoom {
+  transition: transform 0.3s;
+  &:hover {
+    transform: scale(1.05);
+  }
+}

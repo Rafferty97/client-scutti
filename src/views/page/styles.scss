@@ -1,0 +1,55 @@
+@import '../theme/vars';
+
+.wrap {
+  position: relative;
+  margin-right: 200px;
+  padding: 20px 40px 20px (312px + 40px);
+  min-height: $min-page-height;
+  background-color: black;
+  background-color: rgba(0,0,0,0.88);
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+  color: white;
+  box-sizing: border-box;
+  max-width: 1030px;
+  overflow: hidden;
+
+  &--full {
+    background-color: #141414;
+    margin-right: 0;
+    max-width: none;
+  }
+
+  @media (max-width: $medium-bp) {
+    padding-left: 272px + 30px;
+    padding-right: 30px;
+    margin-right: 170px;
+
+    &--full {
+      margin-right: 0;
+    }
+  }
+
+  @media (max-width: $sm-medium-bp) {
+    padding-left: 262px + 25px;
+    padding-right: 25px;
+    margin-right: 150px;
+
+    &--full {
+      margin-right: 0;
+    }
+  }
+
+  @media (max-width: $small-bp) {
+    padding: 20px 30px;
+    margin-right: 60px;
+
+    &--full {
+      margin-right: 0;
+    }
+  }
+
+  @media (max-width: $mobile-bp) {
+    padding: 14px 18px;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,17 @@
+@import '../theme/vars';
+
+@mixin tile-bk($img) {
+  .#{$img} {
+    background-image: url('./backgrounds/#{$img}.jpg');
+  }
+  .#{$img}--small {
+    background-image: url('./backgrounds/#{$img}-small.jpg');
+  }
+}
+@include tile-bk('meat');
+@include tile-bk('deli-meat');
+@include tile-bk('cheese');
+@include tile-bk('pasta');
+@include tile-bk('coffee');
+@include tile-bk('vegetables');
+@include tile-bk('gourmet');

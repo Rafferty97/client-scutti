@@ -1,0 +1,54 @@
+@import '../theme/vars';
+
+$medium-bp: 1100px;
+$sm-medium-bp: 1000px;
+
+.wrap {
+  list-style: none;
+  padding: 0;
+  margin: 20px -2px;
+  font-size: 1.2rem;
+}
+
+.item {
+  display: inline-block;
+  margin-right: 10px;
+
+  a {
+    @include font-serif;
+    @include grey-link;
+    text-transform: uppercase;
+    display: block;
+    padding: 8px 15px;
+    border: 1px solid #404040;
+    border-radius: 4px;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    &:hover {
+      border: 1px solid #606060;
+    }
+  }
+
+  &--active {
+    a, a:hover {
+      border: 1px solid #a0a0a0;
+      color: white;
+    }
+  }
+
+  @media (max-width: $sm-medium-bp) {
+    a, a:hover, &--active a, &--active a:hover {
+      padding: 8px 2px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-radius: 0;
+      letter-spacing: 0.025em;
+    }
+  }
+
+  @media (max-width: $smaller-bp) {
+    display: block;
+    margin-right: 0;
+  }
+}

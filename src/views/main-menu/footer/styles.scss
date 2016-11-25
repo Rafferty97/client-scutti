@@ -1,0 +1,68 @@
+@import '../../theme/vars.scss';
+
+.placeholder {
+  margin-top: 50px;
+}
+
+.wrap {
+  margin: 0 20px 20px 20px;
+  padding: 1px 0;
+
+  &--fixed {
+    position: fixed;
+    bottom: 0;
+    left: 6px;
+    width: 260px;
+    @media (max-width: $medium-bp) {
+      width: 220px;
+    }
+    @media (max-width: $sm-medium-bp) {
+      width: 210px;
+    }
+  }
+
+  &--mobile {
+    display: none;
+    margin: 0;
+  }
+
+  @media (max-width: $small-bp) {
+    &, &--fixed {
+      display: none;
+    }
+    &--persists, &--mobile {
+      display: block;
+    }
+  }
+}
+
+.block {
+  border-top: 1px solid #404040;
+  padding: 10px 2px;
+  margin: 10px 0;
+
+  > p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin: 0.75em 0;
+    color: #e0e0e0;
+
+    > strong {
+      @include font-serif;
+      font-weight: bold;
+      color: white;
+    }
+  }
+}
+
+.title {
+  @include font-cursive;
+  font-size: 4rem;
+  font-weight: normal;
+  margin: 5px 0 0 0;
+  line-height: 1;
+}
+
+.small {
+  font-style: italic;
+}

@@ -1,0 +1,44 @@
+@import './vars';
+
+@font-face {
+	font-family: 'Eye Catching Pro';
+	src: url('./fonts/EyeCatchingPro.eot');
+	src: url('./fonts/EyeCatchingPro.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/EyeCatchingPro.woff') format('woff'),
+		url('./fonts/EyeCatchingPro.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #202020;
+  background-size: cover;
+  background-position: 80% 50%;
+	background-attachment: fixed;
+	letter-spacing: 0.025em;
+}
+
+:global {
+	body.bk-store {
+		background-image: url('./backgrounds/shop.jpg');
+	}
+	body.bk-antipasto {
+		background-image: url('./backgrounds/antipasto1.jpg');
+	}
+	body.bk-meat {
+		background-image: url('./backgrounds/deli-meat.jpg');
+	}
+	body.bk-sandwhiches {
+		background-image: url('./backgrounds/sandwhiches.jpg');
+	}
+	body.bk-antipasto2 {
+		background-image: url('./backgrounds/antipasto4.jpg');
+	}
+}

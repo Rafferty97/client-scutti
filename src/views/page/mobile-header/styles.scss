@@ -1,0 +1,29 @@
+@import '../../theme/vars';
+
+.wrap {
+  position: relative;
+  display: none;
+  margin-bottom: 45px;
+  @media (max-width: $small-bp) {
+    display: block;
+  }
+  @media (max-width: $small-bp) {
+    margin-bottom: 30px;
+  }
+}
+
+.bars {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: 20px;
+  margin-top: -10px;
+  color: white;
+  margin-right: 20px;
+}
+
+.logo {
+  display: block;
+  width: 120px;
+  margin: 0 auto;
+}
