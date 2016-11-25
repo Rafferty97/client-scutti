@@ -33,13 +33,12 @@
     margin: 1.55em 0;
     color: #e0e0e0;
     max-width: 55em;
-
-    strong {
-      @include font-serif;
-    }
   }
   ul {
     padding: 0 0 0 2em;
+  }
+  strong {
+    @include font-serif;
   }
 
   hr {
@@ -47,5 +46,30 @@
     margin: 4rem 0;
     background: #404040;
     border: none;
+  }
+
+  &__definitions {
+    color: white;
+    font-size: 1.4rem;
+    line-height: 1.55;
+    tr {
+      margin: 0;
+      padding: 0;
+    }
+    td {
+      margin: 0;
+      padding: 0.7rem 1.4rem 0.7rem 0;
+      vertical-align: top;
+    }
+    @media (max-width: $mobile-bp) {
+      tr {
+        display: block;
+        margin: 1.4rem 0;
+      }
+      td {
+        display: inline;
+        padding: 0 0.7rem 0 0;
+      }
+    }
   }
 }

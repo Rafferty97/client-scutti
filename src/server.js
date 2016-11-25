@@ -5,7 +5,7 @@ import routes from './routes';
 
 const app = express();
 
-app.use(express.static('build/public'));
+app.use(express.static('tmp/public'));
 
 routes.forEach(route => {
   app.get(route, (req, res) => {
