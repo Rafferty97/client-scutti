@@ -18,7 +18,7 @@ export default props => {
       <div className={typo.bodyType}>
         <h1>Catering</h1>
         <p>
-          Contact our friendly staff to discuss you catering needs for any event, be it a small intimate affair or a large gathering. We have a range of salad platters, cheese platters, antipasto platters or we can assist with personalised catering on request.
+          Contact our friendly staff to discuss your catering needs for any event, be it a small intimate affair or a large gathering. We have a range of salad platters, cheese platters, antipasto platters or we can assist with personalised catering on request.
         </p>
         <p>
           <strong>Our online shop will be available soon.</strong>

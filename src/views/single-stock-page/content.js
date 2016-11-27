@@ -21,22 +21,22 @@ export default {
   },
   cheese: {
     title: 'Cheese',
-    copy: <p>We have an impressive range of cheeses with over 250 varieties of local and imported cheeses. Made on the farm by Tarago River Cheese Company in Victoria, Shadows of Blue is an example of one of our favourite local cheeses. It is a double cream mild blue cheese, wrapped in natural bees wax and aged for 2 &mdash; 3 months. This cheese pairs beautifully with sliced pear and a glass of your favourite wine.</p>,
+    copy: <p>We have an impressive range with over 250 varieties of local and imported cheeses. Made on the farm by Tarago River Cheese Company in Victoria, Shadows of Blue is an example of one of our favourite local cheeses. It is a double cream mild blue cheese, wrapped in natural bees wax and aged for 2 &mdash; 3 months. This cheese pairs beautifully with sliced pear and a glass of your favourite wine.</p>,
     bk: 'cheese'
   },
   'deli-meats': {
     title: 'Deli Meats',
-    copy: <p>We also offer an extensive range of cold meats freshly sliced to order including locally produced Kangaroo Salami, free range ham, Italian Prosciutto (San Daniele and Parma), Spanish Prosciutto (Jamon Serrano and Jamon Iberico) and many more. We have a range of platter options for any occasion and we also happy to help with a custom build of a grazing platter or cheese and fruit platter.</p>,
+    copy: <p>We also offer an extensive range of cold meats freshly sliced to order including locally produced Kangaroo Salami, free range ham, Italian Prosciutto (San Daniele and Parma), Spanish Prosciutto (Jamon Serrano and Jamon Iberico) and many more. We have a range of platter options for any occasion and we are also happy to help with a custom build of a grazing platter or cheese and fruit platter.</p>,
     bk: 'deli-meat'
   },
   kitchen: {
     title: 'Kitchen',
-    copy: <p>We strive to provide customers with the option of healthy meals prepared on on-site by our passionate Cooks and Chef. The range is extensive and changed regularly. Winter favourites include minestrone soup, lamb and potato pie, pasta bolognese and in summer our range of daily prepared salads are just perfect.</p>,
+    copy: <p>We strive to provide customers with the option of healthy meals prepared on-site by our passionate Cooks and Chefs. The range is extensive and changed regularly. Winter favourites include minestrone soup, lamb and potato pie, pasta bolognese and in summer our range of daily prepared salads are just perfect.</p>,
     bk: 'pasta'
   },
   cafe: {
     title: 'Café',
-    copy: <p>In the caf&eacute;, you will find high quality coffee and tea as well as sweet offerings that are either baked on the premised or personally sourced from a range of top West Australian patisseries. The caf&eacute; is also a great place to stop for a sit down meal. Customers continue to enjoy freshly made rolls to order.</p>,
+    copy: <p>In the caf&eacute;, you will find high quality coffee and tea as well as sweet offerings that are either baked on premise or personally sourced from a range of top West Australian patisseries. The caf&eacute; is also a great place to stop for a sit down meal. Customers continue to enjoy freshly made rolls to order.</p>,
     bk: 'coffee'
   },
   'gourmet-groceries': {

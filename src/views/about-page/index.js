@@ -38,9 +38,9 @@ export default props => {
             <p>These are the values that underpin our every day work:</p>
             <table className={typo.bodyType.definitions}>
               <tbody>
-                <tr><td><strong>Quality</strong></td><td>&mdash;</td><td>we believe in providing the highest quality to our customers</td></tr>
+                <tr><td><strong>Quality</strong></td><td>&mdash;</td><td>we believe in providing the highest quality produce and products to our customers</td></tr>
                 <tr><td><strong>Customers</strong></td><td>&mdash;</td><td>we believe in providing customers with exceptional shopping experiences time and time again</td></tr>
-                <tr><td><strong>Co-worker</strong></td><td>&mdash;</td><td>we believe in having fun at work and promoting a cohesive team environment where we support each other to do our best each day</td></tr>
+                <tr><td><strong>Team&nbsp;work</strong></td><td>&mdash;</td><td>we believe in having fun at work and promoting a cohesive team environment where we support each other to do our best each day</td></tr>
               </tbody>
             </table>
           </wrapper>
