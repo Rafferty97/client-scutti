@@ -14,4 +14,4 @@ $body .= "</tbody></table><p>SCUTTI</p></body></html>";
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
-mail("alexander.drafferty@gmail.com", "Form Submission | Scutti", $body, $headers);
+mail("enquiries@scutti.com.au", "Form Submission | Scutti", $body, $headers);

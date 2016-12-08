@@ -11,7 +11,7 @@ export const instagram = 'https://www.instagram.com/scuttimarketsonangelo/';
 
 export const tradingHours = (
   <p>
-    <strong>{'6 am - 7 pm'}</strong><br/>
+    <strong>{'7am - 7pm'}</strong> (café opens at 6am)<br/>
     <strong>{'7 days a week'}</strong><br/>
     {'Closed on Good Friday, Christmas Day and New Years Day'}
   </p>

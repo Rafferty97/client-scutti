@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node build.js --static && node build/entry.js",
     "serve": "http-server build/public",
-    "dev": "concurrently --kill-others \"node build.js --watch\" \"nodemon tmp/entry.js\"",
+    "dev": "node build.js && concurrently --kill-others \"node build.js --watch\" \"nodemon tmp/entry.js\"",
     "deploy": "git subtree push --prefix build/public origin gh-pages"
   },
   "author": "Alexander Rafferty <alex@flashbang.io>",
