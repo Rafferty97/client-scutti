@@ -29,6 +29,9 @@ export default class Footer {
               <strong>Phone:</strong> {phone}<br/>
               <strong>Email:</strong> {email}
             </p>
+            <p>
+              <strong>Copyright &copy; 2017 Scutti</strong>
+            </p>
           </div>
         </div>
       </div>
