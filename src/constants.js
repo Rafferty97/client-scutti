@@ -13,7 +13,7 @@ export const tradingHours = (
   <p>
     <strong>{'7am - 7pm'}</strong> (café opens at 6am)<br/>
     <strong>{'7 days a week'}</strong><br/>
-    {'Closed on Good Friday, Christmas Day and New Years Day'}
+    {'Closed on Christmas Day and New Years Day'}
   </p>
 );
 

@@ -19,7 +19,9 @@ export default props => {
     <Page nav={['stock']} full={true}>
       <div className={typo.bodyType}>
         <h1>{content.title}</h1>
-        {content.copy}
+        <div className={styles.copy}>
+          {content.copy}
+        </div>
         <div className={styles.fullWidthImg + bks[content.bk]}></div>
       </div>
     </Page>

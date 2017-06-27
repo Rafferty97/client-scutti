@@ -3,15 +3,19 @@ import { createElement } from 'cmmn';
 export default {
   'fruit-and-vegetables': {
     title: 'Fruit & Vegetables',
-    copy: (
+    copy: [
       <p>
         We are proud to partner with many local growers directly so that
         customers are provided with the freshest, seasonal produce available
         in Western Australia. To compliment this, we are at the Perth Markets
         early in the morning to ensure that we stock the greatest range of
         produce available all year round.
+      </p>,
+      <p>
+        We are members of <a href="http://greatgreengrocer.com/what-is-a-great-greengrocer" target="_blank">
+        The Great Green Grocer Program</a>, strongly committed to serving our local community.
       </p>
-    ),
+    ],
     bk: 'vegetables'
   },
   meat: {

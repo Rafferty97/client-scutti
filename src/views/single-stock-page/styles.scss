@@ -6,3 +6,12 @@
   background-position: 50% 50%;
   padding-bottom: 50%;
 }
+
+.copy {
+  a {
+    color: #d41;
+    &:hover {
+      color: #e52;
+    }
+  }
+}
